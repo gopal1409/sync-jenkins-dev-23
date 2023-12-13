@@ -10,3 +10,4 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins
 ####update the repo of linux system
 sudo apt-get update
 apt-get install jenkins
+systemctl restart jenkins
