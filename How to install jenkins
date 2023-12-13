@@ -2,6 +2,7 @@
 sudo -i
 ###update the system
 apt-get update
+apt install default-jdk
 ###add the jenkins key
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
 ####add the jenkins repo
