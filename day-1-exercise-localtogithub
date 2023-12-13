@@ -1,0 +1,17 @@
+###we will clone the project
+11  git clone https://github.com/gopal1409/springboot-chat-app.git
+   12  cd springboot-chat-app/
+     ###remove my git refrence
+   13  rm -rf .git
+     ###create global varaibel change the name to your name
+   14  git config --global user.name "gopal"
+   15  git config --global user.email "gopal1409@gmail.com"
+   ##reintialized the git repo
+   17  git init
+   18  git add .
+   19  git commit -m "my first spring boot project"
+   ####generate the ssh key
+   21  git log
+   22  ssh-keygen -t rsa
+     ###check the public key
+   23  cat /root/.ssh/id_rsa.pub
